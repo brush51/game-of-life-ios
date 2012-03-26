@@ -22,6 +22,7 @@
 		62E84E311520ABC400A2D892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E0F1520ABC400A2D892 /* Foundation.framework */; };
 		62E84E391520ABC400A2D892 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E371520ABC400A2D892 /* InfoPlist.strings */; };
 		62E84E3C1520ABC400A2D892 /* golTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E3B1520ABC400A2D892 /* golTests.m */; };
+		62E84E441520ABC400A2D894 /* NXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D893 /* NXCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		62E84E381520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E84E3A1520ABC400A2D892 /* golTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golTests.h; sourceTree = "<group>"; };
 		62E84E3B1520ABC400A2D892 /* golTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golTests.m; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D893 /* NXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXCell.m; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D895 /* NXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +145,8 @@
 		62E84E341520ABC400A2D892 /* golTests */ = {
 			isa = PBXGroup;
 			children = (
+				62E84E441520ABC400A2D895 /* NXCell.h */,
+				62E84E441520ABC400A2D893 /* NXCell.m */,
 				62E84E3A1520ABC400A2D892 /* golTests.h */,
 				62E84E3B1520ABC400A2D892 /* golTests.m */,
 				62E84E351520ABC400A2D892 /* Supporting Files */,
@@ -269,6 +274,7 @@
 				62E84E1A1520ABC400A2D892 /* main.m in Sources */,
 				62E84E1E1520ABC400A2D892 /* NXAppDelegate.m in Sources */,
 				62E84E271520ABC400A2D892 /* NXViewController.m in Sources */,
+				62E84E441520ABC400A2D894 /* NXCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,6 +9,7 @@
 #define HC_SHORTHAND
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
 #import "golTests.h"
+#import "NXCell.h"
 
 @implementation golTests
 
@@ -26,9 +27,10 @@
     [super tearDown];
 }
 
-- (void)testExample
+- (void)testCellCreation
 {
-    assertThat(@"Hallo", is(equalTo(@"Hallo")));
+    NXCell *cell = [[NXCell alloc] init];
+    assertThatBool([cell isAlive], is(equalToBool(YES)));
 }
 
 @end
