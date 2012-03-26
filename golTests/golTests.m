@@ -6,6 +6,8 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
+#define HC_SHORTHAND
+#import <OCHamcrestIOS/OCHamcrestIOS.h>
 #import "golTests.h"
 
 @implementation golTests
@@ -26,7 +28,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in golTests");
+    assertThat(@"Hallo", is(equalTo(@"Hallo")));
 }
 
 @end

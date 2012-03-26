@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		62AD1A1A1520BE7600FB4383 /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62AD1A191520BE7600FB4383 /* OCHamcrestIOS.framework */; };
 		62E84E0E1520ABC400A2D892 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E0D1520ABC400A2D892 /* UIKit.framework */; };
 		62E84E101520ABC400A2D892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E0F1520ABC400A2D892 /* Foundation.framework */; };
 		62E84E121520ABC400A2D892 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E111520ABC400A2D892 /* CoreGraphics.framework */; };
@@ -34,25 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		62AD1A191520BE7600FB4383 /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 		62E84E091520ABC400A2D892 /* gol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gol.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E84E0D1520ABC400A2D892 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62E84E0F1520ABC400A2D892 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		62E84E111520ABC400A2D892 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		62E84E151520ABC400A2D892 /* gol-Info.plist */ = {isa = PBXFileReference; path = "gol-Info.plist"; sourceTree = "<group>"; };
+		62E84E151520ABC400A2D892 /* gol-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "gol-Info.plist"; sourceTree = "<group>"; };
 		62E84E171520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E84E191520ABC400A2D892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		62E84E1B1520ABC400A2D892 /* gol-Prefix.pch */ = {isa = PBXFileReference; path = "gol-Prefix.pch"; sourceTree = "<group>"; };
-		62E84E1C1520ABC400A2D892 /* NXAppDelegate.h */ = {isa = PBXFileReference; path = NXAppDelegate.h; sourceTree = "<group>"; };
+		62E84E1B1520ABC400A2D892 /* gol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gol-Prefix.pch"; sourceTree = "<group>"; };
+		62E84E1C1520ABC400A2D892 /* NXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXAppDelegate.h; sourceTree = "<group>"; };
 		62E84E1D1520ABC400A2D892 /* NXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAppDelegate.m; sourceTree = "<group>"; };
 		62E84E201520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		62E84E231520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		62E84E251520ABC400A2D892 /* NXViewController.h */ = {isa = PBXFileReference; path = NXViewController.h; sourceTree = "<group>"; };
+		62E84E251520ABC400A2D892 /* NXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXViewController.h; sourceTree = "<group>"; };
 		62E84E261520ABC400A2D892 /* NXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXViewController.m; sourceTree = "<group>"; };
 		62E84E2D1520ABC400A2D892 /* golTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = golTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E84E2E1520ABC400A2D892 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		62E84E361520ABC400A2D892 /* golTests-Info.plist */ = {isa = PBXFileReference; path = "golTests-Info.plist"; sourceTree = "<group>"; };
+		62E84E361520ABC400A2D892 /* golTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "golTests-Info.plist"; sourceTree = "<group>"; };
 		62E84E381520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		62E84E3A1520ABC400A2D892 /* golTests.h */ = {isa = PBXFileReference; path = golTests.h; sourceTree = "<group>"; };
+		62E84E3A1520ABC400A2D892 /* golTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golTests.h; sourceTree = "<group>"; };
 		62E84E3B1520ABC400A2D892 /* golTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +76,7 @@
 				62E84E2F1520ABC400A2D892 /* SenTestingKit.framework in Frameworks */,
 				62E84E301520ABC400A2D892 /* UIKit.framework in Frameworks */,
 				62E84E311520ABC400A2D892 /* Foundation.framework in Frameworks */,
+				62AD1A1A1520BE7600FB4383 /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +105,7 @@
 		62E84E0C1520ABC400A2D892 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62AD1A191520BE7600FB4383 /* OCHamcrestIOS.framework */,
 				62E84E0D1520ABC400A2D892 /* UIKit.framework */,
 				62E84E0F1520ABC400A2D892 /* Foundation.framework */,
 				62E84E111520ABC400A2D892 /* CoreGraphics.framework */,
@@ -398,6 +402,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gol/gol-Prefix.pch";
@@ -415,6 +420,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "gol/gol-Prefix.pch";
@@ -444,6 +450,7 @@
 				62E84E411520ABC400A2D892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E84E421520ABC400A2D892 /* Build configuration list for PBXNativeTarget "golTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +459,7 @@
 				62E84E441520ABC400A2D892 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
