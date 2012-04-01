@@ -10,12 +10,14 @@
 #import "CellTests.h"
 #import "Cell.h"
 
-@implementation CellTests
+@implementation CellTests{
+    Cell *cell;
+}
 
 - (void)setUp
 {
     [super setUp];
-    
+    cell = [[Cell alloc] init];
     // Set-up code here.
 }
 
@@ -28,13 +30,11 @@
 
 - (void)testCellCreation
 {
-    Cell *cell = [[Cell alloc] init];
     assertThatBool([cell isAlive], is(equalToBool(YES)));
 }
 
 - (void)testThatCellObeysConwaysGameOfLifeLaws
 {
-    Cell *cell = [[Cell alloc] init];
     // Living Cell
     cell.numberOfLiveNeighbors = 0;
     assertThatBool([cell willBeAliveNextRound], is(equalToBool(NO)));
