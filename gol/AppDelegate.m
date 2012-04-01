@@ -3,12 +3,11 @@
 //  gol
 //
 //  Created by Johannes Seitz on 26.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "NXAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation NXAppDelegate
+@implementation AppDelegate
 
 @synthesize window = _window;
 

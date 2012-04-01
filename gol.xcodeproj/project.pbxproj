@@ -13,16 +13,16 @@
 		62E84E121520ABC400A2D892 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E111520ABC400A2D892 /* CoreGraphics.framework */; };
 		62E84E181520ABC400A2D892 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E161520ABC400A2D892 /* InfoPlist.strings */; };
 		62E84E1A1520ABC400A2D892 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E191520ABC400A2D892 /* main.m */; };
-		62E84E1E1520ABC400A2D892 /* NXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E1D1520ABC400A2D892 /* NXAppDelegate.m */; };
+		62E84E1E1520ABC400A2D892 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E1D1520ABC400A2D892 /* AppDelegate.m */; };
 		62E84E211520ABC400A2D892 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E1F1520ABC400A2D892 /* MainStoryboard_iPhone.storyboard */; };
 		62E84E241520ABC400A2D892 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E221520ABC400A2D892 /* MainStoryboard_iPad.storyboard */; };
-		62E84E271520ABC400A2D892 /* NXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E261520ABC400A2D892 /* NXViewController.m */; };
+		62E84E271520ABC400A2D892 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E261520ABC400A2D892 /* ViewController.m */; };
 		62E84E2F1520ABC400A2D892 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E2E1520ABC400A2D892 /* SenTestingKit.framework */; };
 		62E84E301520ABC400A2D892 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E0D1520ABC400A2D892 /* UIKit.framework */; };
 		62E84E311520ABC400A2D892 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E84E0F1520ABC400A2D892 /* Foundation.framework */; };
 		62E84E391520ABC400A2D892 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E84E371520ABC400A2D892 /* InfoPlist.strings */; };
-		62E84E3C1520ABC400A2D892 /* golTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E3B1520ABC400A2D892 /* golTests.m */; };
-		62E84E441520ABC400A2D894 /* NXCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D893 /* NXCell.m */; };
+		62E84E3C1520ABC400A2D892 /* CellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E3B1520ABC400A2D892 /* CellTests.m */; };
+		62E84E441520ABC400A2D897 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D896 /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,20 +45,20 @@
 		62E84E171520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E84E191520ABC400A2D892 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		62E84E1B1520ABC400A2D892 /* gol-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gol-Prefix.pch"; sourceTree = "<group>"; };
-		62E84E1C1520ABC400A2D892 /* NXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXAppDelegate.h; sourceTree = "<group>"; };
-		62E84E1D1520ABC400A2D892 /* NXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXAppDelegate.m; sourceTree = "<group>"; };
+		62E84E1C1520ABC400A2D892 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		62E84E1D1520ABC400A2D892 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		62E84E201520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		62E84E231520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		62E84E251520ABC400A2D892 /* NXViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXViewController.h; sourceTree = "<group>"; };
-		62E84E261520ABC400A2D892 /* NXViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXViewController.m; sourceTree = "<group>"; };
+		62E84E251520ABC400A2D892 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		62E84E261520ABC400A2D892 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62E84E2D1520ABC400A2D892 /* golTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = golTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E84E2E1520ABC400A2D892 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		62E84E361520ABC400A2D892 /* golTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "golTests-Info.plist"; sourceTree = "<group>"; };
 		62E84E381520ABC400A2D892 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		62E84E3A1520ABC400A2D892 /* golTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = golTests.h; sourceTree = "<group>"; };
-		62E84E3B1520ABC400A2D892 /* golTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = golTests.m; sourceTree = "<group>"; };
-		62E84E441520ABC400A2D893 /* NXCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXCell.m; sourceTree = "<group>"; };
-		62E84E441520ABC400A2D895 /* NXCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXCell.h; sourceTree = "<group>"; };
+		62E84E3A1520ABC400A2D892 /* CellTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellTests.h; sourceTree = "<group>"; };
+		62E84E3B1520ABC400A2D892 /* CellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellTests.m; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D895 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D896 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,14 +120,14 @@
 		62E84E131520ABC400A2D892 /* gol */ = {
 			isa = PBXGroup;
 			children = (
-				62E84E441520ABC400A2D893 /* NXCell.m */,
-				62E84E441520ABC400A2D895 /* NXCell.h */,
-				62E84E1C1520ABC400A2D892 /* NXAppDelegate.h */,
-				62E84E1D1520ABC400A2D892 /* NXAppDelegate.m */,
+				62E84E441520ABC400A2D896 /* Cell.m */,
+				62E84E441520ABC400A2D895 /* Cell.h */,
+				62E84E1C1520ABC400A2D892 /* AppDelegate.h */,
+				62E84E1D1520ABC400A2D892 /* AppDelegate.m */,
 				62E84E1F1520ABC400A2D892 /* MainStoryboard_iPhone.storyboard */,
 				62E84E221520ABC400A2D892 /* MainStoryboard_iPad.storyboard */,
-				62E84E251520ABC400A2D892 /* NXViewController.h */,
-				62E84E261520ABC400A2D892 /* NXViewController.m */,
+				62E84E251520ABC400A2D892 /* ViewController.h */,
+				62E84E261520ABC400A2D892 /* ViewController.m */,
 				62E84E141520ABC400A2D892 /* Supporting Files */,
 			);
 			path = gol;
@@ -147,8 +147,8 @@
 		62E84E341520ABC400A2D892 /* golTests */ = {
 			isa = PBXGroup;
 			children = (
-				62E84E3A1520ABC400A2D892 /* golTests.h */,
-				62E84E3B1520ABC400A2D892 /* golTests.m */,
+				62E84E3A1520ABC400A2D892 /* CellTests.h */,
+				62E84E3B1520ABC400A2D892 /* CellTests.m */,
 				62E84E351520ABC400A2D892 /* Supporting Files */,
 			);
 			path = golTests;
@@ -272,9 +272,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				62E84E1A1520ABC400A2D892 /* main.m in Sources */,
-				62E84E1E1520ABC400A2D892 /* NXAppDelegate.m in Sources */,
-				62E84E271520ABC400A2D892 /* NXViewController.m in Sources */,
-				62E84E441520ABC400A2D894 /* NXCell.m in Sources */,
+				62E84E1E1520ABC400A2D892 /* AppDelegate.m in Sources */,
+				62E84E271520ABC400A2D892 /* ViewController.m in Sources */,
+				62E84E441520ABC400A2D897 /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E84E3C1520ABC400A2D892 /* golTests.m in Sources */,
+				62E84E3C1520ABC400A2D892 /* CellTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

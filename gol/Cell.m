@@ -2,13 +2,12 @@
 //  NXCell
 //
 //  Created by Johannes Seitz on 26.03.12.
-//  Copyright (c) 2012 Namics (Deutschland) GmbH. All rights reserved.
 //
 
-#import "NXCell.h"
+#import "Cell.h"
 
 
-@implementation NXCell {
+@implementation Cell {
 @private
     BOOL _isAlive;
     char _numberOfLiveNeighbors;

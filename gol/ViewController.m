@@ -1,18 +1,17 @@
 //
-//  NXViewController.m
+//  ViewController.m
 //  gol
 //
 //  Created by Johannes Seitz on 26.03.12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "NXViewController.h"
+#import "ViewController.h"
 
-@interface NXViewController ()
+@interface ViewController ()
 
 @end
 
-@implementation NXViewController
+@implementation ViewController
 
 - (void)viewDidLoad
 {

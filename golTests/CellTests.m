@@ -1,17 +1,16 @@
 //
-//  NXCellTests.m
+//  CellTests.m
 //  golTests
 //
 //  Created by Johannes Seitz on 26.03.12.
-//  Copyright (c) 2012 Namics (Deutschland) GmbH. All rights reserved.
 //
 
 #define HC_SHORTHAND
 #import <OCHamcrestIOS/OCHamcrestIOS.h>
-#import "NXCellTests.h"
-#import "NXCell.h"
+#import "CellTests.h"
+#import "Cell.h"
 
-@implementation NXCellTests
+@implementation CellTests
 
 - (void)setUp
 {
@@ -29,13 +28,13 @@
 
 - (void)testCellCreation
 {
-    NXCell *cell = [[NXCell alloc] init];
+    Cell *cell = [[Cell alloc] init];
     assertThatBool([cell isAlive], is(equalToBool(YES)));
 }
 
 - (void)testThatCellObeysConwaysGameOfLifeLaws
 {
-    NXCell *cell = [[NXCell alloc] init];
+    Cell *cell = [[Cell alloc] init];
     // Living Cell
     cell.numberOfLiveNeighbors = 0;
     assertThatBool([cell willBeAliveNextRound], is(equalToBool(NO)));
