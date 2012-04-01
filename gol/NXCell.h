@@ -10,6 +10,8 @@
 
 @interface NXCell : NSObject
 
-@property (nonatomic) BOOL isAlive;
+-(BOOL)willBeAliveNextRound;
 
+@property (nonatomic) BOOL isAlive;
+@property (nonatomic) char numberOfLiveNeighbors;
 @end
