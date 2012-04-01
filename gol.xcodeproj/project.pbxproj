@@ -120,6 +120,8 @@
 		62E84E131520ABC400A2D892 /* gol */ = {
 			isa = PBXGroup;
 			children = (
+				62E84E441520ABC400A2D893 /* NXCell.m */,
+				62E84E441520ABC400A2D895 /* NXCell.h */,
 				62E84E1C1520ABC400A2D892 /* NXAppDelegate.h */,
 				62E84E1D1520ABC400A2D892 /* NXAppDelegate.m */,
 				62E84E1F1520ABC400A2D892 /* MainStoryboard_iPhone.storyboard */,
@@ -145,8 +147,6 @@
 		62E84E341520ABC400A2D892 /* golTests */ = {
 			isa = PBXGroup;
 			children = (
-				62E84E441520ABC400A2D895 /* NXCell.h */,
-				62E84E441520ABC400A2D893 /* NXCell.m */,
 				62E84E3A1520ABC400A2D892 /* golTests.h */,
 				62E84E3B1520ABC400A2D892 /* golTests.m */,
 				62E84E351520ABC400A2D892 /* Supporting Files */,
