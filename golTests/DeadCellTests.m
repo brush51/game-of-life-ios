@@ -31,12 +31,12 @@
     assertThatBool([deadCell isAlive], is(equalToBool(NO)));
 }
 
-- (void)testLivingCellWithExactlyThreeNeighboursWillBeBorn
+- (void)testDeadCellWithExactlyThreeNeighboursWillLive
 {
     [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:3 willLive:YES];
 }
 
-- (void)testLivingCellWithAnyOtherNumberOfNeighboursRemainsDead
+- (void)testDeadCellWithAnyOtherNumberOfNeighboursRemainsDead
 {
     [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:0 willLive:NO];
     [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:1 willLive:NO];
