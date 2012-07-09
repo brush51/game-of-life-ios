@@ -13,16 +13,16 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#import "AppDelegate.h"
+#import "Cell.h"
 
-@implementation AppDelegate
 
-@synthesize window = _window;
+@implementation DomainAssertions
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
++ (void)assertThatCell:(NSObject <Cell> *)livingCell withNumberOfNeighbours:(int)numberOfNeighbours willLive:(BOOL)willLive {
+    NSObject<Cell>* cellForNextTick = [livingCell cellForNextTickIfNumberOfNeighbours:numberOfNeighbours];
+    
+    assertThat(cellForNextTick, is(notNilValue()));
+    assertThatBool([cellForNextTick isAlive], is(equalToBool(willLive)));
 }
-							
+
 @end

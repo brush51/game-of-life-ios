@@ -1,0 +1,11 @@
+//
+// Prefix header for all source files of the 'golTests' target in the 'golTests' project
+//
+#import "../gol/gol-Prefix.pch"
+
+#ifdef __OBJC__
+    #import <SenTestingKit/SenTestingKit.h>
+    #define HC_SHORTHAND
+    #import <OCHamcrestIOS/OCHamcrestIOS.h>
+    #import "DomainAssertions.h"
+#endif

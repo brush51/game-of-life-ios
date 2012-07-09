@@ -13,16 +13,9 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#import "AppDelegate.h"
+@protocol Cell;
 
-@implementation AppDelegate
+@interface DomainAssertions : NSObject
++ (void)assertThatCell:(NSObject <Cell> *)livingCell withNumberOfNeighbours:(int)numberOfNeighbours willLive:(BOOL)willLive;
 
-@synthesize window = _window;
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
-    return YES;
-}
-							
 @end

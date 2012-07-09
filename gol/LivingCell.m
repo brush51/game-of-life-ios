@@ -13,16 +13,21 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-#import "AppDelegate.h"
+#import "LivingCell.h"
+#import "DeadCell.h"
 
-@implementation AppDelegate
+@implementation LivingCell
 
-@synthesize window = _window;
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-{
-    // Override point for customization after application launch.
+- (BOOL)isAlive {
     return YES;
 }
-							
+
+- (NSObject <Cell> *)cellForNextTickIfNumberOfNeighbours:(int)numberOfLivingNeighbours {
+    if (numberOfLivingNeighbours == 2 ||numberOfLivingNeighbours == 3){
+        return self;
+    } else {
+        return [DeadCell new]; 
+    }
+}
+
 @end
