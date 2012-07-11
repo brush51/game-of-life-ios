@@ -13,16 +13,24 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
+#import <Foundation/Foundation.h>
 #import "Cell.h"
 
 
 @implementation DomainAssertions
 
-+ (void)assertThatCell:(NSObject <Cell> *)livingCell withNumberOfNeighbours:(int)numberOfNeighbours willLive:(BOOL)willLive {
-    NSObject<Cell>* cellForNextTick = [livingCell cellForNextTickIfNumberOfNeighbours:numberOfNeighbours];
-    
++ (BOOL)willCell:(NSObject <Cell> *)aCell withNumberOfNeighboursLive:(int)numberOfNeighbours {
+    NSObject<Cell>* cellForNextTick = [aCell cellForNextTickIfNumberOfNeighbours:numberOfNeighbours];
     assertThat(cellForNextTick, is(notNilValue()));
-    assertThatBool([cellForNextTick isAlive], is(equalToBool(willLive)));
+    return [cellForNextTick isAlive];
+}
+
++ (void)assertThatCellWillLive:(NSObject <Cell> *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
+    assertThatBool([self willCell:aCell withNumberOfNeighboursLive:numberOfNeighbours], is(equalToBool(YES)));
+}
+
++ (void)assertThatCellWillBeDead:(NSObject <Cell> *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
+    assertThatBool([self willCell:aCell withNumberOfNeighboursLive:numberOfNeighbours], is(equalToBool(NO)));
 }
 
 @end

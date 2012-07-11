@@ -33,19 +33,19 @@
 
 - (void)testDeadCellWithExactlyThreeNeighboursWillLive
 {
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:3 willLive:YES];
+    [DomainAssertions assertThatCellWillLive:deadCell withNumberOfNeighbours:3];
 }
 
 - (void)testDeadCellWithAnyOtherNumberOfNeighboursRemainsDead
 {
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:0 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:1 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:2 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:4 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:5 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:6 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:7 willLive:NO];
-    [DomainAssertions assertThatCell:deadCell withNumberOfNeighbours:8 willLive:NO];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:0];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:1];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:2];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:4];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:5];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:6];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:7];
+    [DomainAssertions assertThatCellWillBeDead:deadCell withNumberOfNeighbours:8];
 }
 
 @end

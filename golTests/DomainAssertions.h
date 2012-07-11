@@ -16,6 +16,6 @@
 @protocol Cell;
 
 @interface DomainAssertions : NSObject
-+ (void)assertThatCell:(NSObject <Cell> *)livingCell withNumberOfNeighbours:(int)numberOfNeighbours willLive:(BOOL)willLive;
-
++ (void)assertThatCellWillLive:(NSObject<Cell> *)cell withNumberOfNeighbours:(int)numberOfNeighbours;
++ (void)assertThatCellWillBeDead:(NSObject<Cell> *)cell withNumberOfNeighbours:(int)numberOfNeighbours;
 @end
