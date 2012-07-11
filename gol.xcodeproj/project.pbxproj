@@ -23,6 +23,9 @@
 		62E84E3C1520ABC400A2D892 /* LivingCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E3B1520ABC400A2D892 /* LivingCellTests.m */; };
 		62E84E441520ABC400A2D8A1 /* DeadCellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D8A0 /* DeadCellTests.m */; };
 		62E84E441520ABC400A2D8A4 /* DomainAssertions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D8A3 /* DomainAssertions.m */; };
+		62E84E441520ABC400A2D8A7 /* BoardTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D8A6 /* BoardTest.m */; };
+		62E84E441520ABC400A2D8AA /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D8A9 /* Board.m */; };
+		62E84E441520ABC400A2D8AD /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E84E441520ABC400A2D8AC /* Cell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,11 @@
 		62E84E441520ABC400A2D8A2 /* DeadCellTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeadCellTests.h; sourceTree = "<group>"; };
 		62E84E441520ABC400A2D8A3 /* DomainAssertions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DomainAssertions.m; sourceTree = "<group>"; };
 		62E84E441520ABC400A2D8A5 /* DomainAssertions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DomainAssertions.h; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D8A6 /* BoardTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardTest.m; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D8A8 /* BoardTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardTest.h; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D8A9 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D8AB /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		62E84E441520ABC400A2D8AC /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +101,9 @@
 		626F11B115AABEBF007BEAC0 /* entities */ = {
 			isa = PBXGroup;
 			children = (
+				62E84E441520ABC400A2D8AC /* Cell.m */,
+				62E84E441520ABC400A2D8AB /* Board.h */,
+				62E84E441520ABC400A2D8A9 /* Board.m */,
 				626F11B315AAC1F9007BEAC0 /* Cell.h */,
 				626F11B415AAC1F9007BEAC0 /* DeadCell.h */,
 				626F11B515AAC1F9007BEAC0 /* DeadCell.m */,
@@ -158,6 +169,8 @@
 		62E84E341520ABC400A2D892 /* golTests */ = {
 			isa = PBXGroup;
 			children = (
+				62E84E441520ABC400A2D8A8 /* BoardTest.h */,
+				62E84E441520ABC400A2D8A6 /* BoardTest.m */,
 				62E84E441520ABC400A2D8A5 /* DomainAssertions.h */,
 				62E84E441520ABC400A2D8A3 /* DomainAssertions.m */,
 				62E84E441520ABC400A2D8A2 /* DeadCellTests.h */,
@@ -289,6 +302,8 @@
 				62E84E1E1520ABC400A2D892 /* AppDelegate.m in Sources */,
 				626F11B815AAC1F9007BEAC0 /* DeadCell.m in Sources */,
 				626F11B915AAC1F9007BEAC0 /* LivingCell.m in Sources */,
+				62E84E441520ABC400A2D8AA /* Board.m in Sources */,
+				62E84E441520ABC400A2D8AD /* Cell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +314,7 @@
 				62E84E3C1520ABC400A2D892 /* LivingCellTests.m in Sources */,
 				62E84E441520ABC400A2D8A1 /* DeadCellTests.m in Sources */,
 				62E84E441520ABC400A2D8A4 /* DomainAssertions.m in Sources */,
+				62E84E441520ABC400A2D8A7 /* BoardTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
