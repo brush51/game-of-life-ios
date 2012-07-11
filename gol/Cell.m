@@ -13,7 +13,15 @@
 // TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 // SOFTWARE.
 
-@interface Cell : NSObject
-- (BOOL)isAlive;
-- (Cell *)cellForNextTickIfNumberOfNeighbours:(int) numberOfLivingNeighbours;
+#import "Cell.h"
+
+@implementation Cell
+
+- (BOOL)isEqual:(id)object {
+    if (![object isKindOfClass:[Cell class]]){
+        return NO;
+    }
+    return [object isAlive] == [self isAlive];
+}
+
 @end

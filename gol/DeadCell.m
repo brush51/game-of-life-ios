@@ -24,7 +24,7 @@
     return NO;
 }
 
-- (NSObject <Cell> *)cellForNextTickIfNumberOfNeighbours:(int)numberOfLivingNeighbours {
+- (Cell *)cellForNextTickIfNumberOfNeighbours:(int)numberOfLivingNeighbours {
     if (numberOfLivingNeighbours == 3){
         return [LivingCell new];    
     } else {

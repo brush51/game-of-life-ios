@@ -18,7 +18,7 @@
 #import "LivingCell.h"
 
 @implementation LivingCellTests {
-    NSObject<Cell>* livingCell;
+    Cell* livingCell;
 }
 
 - (void)setUp {
@@ -28,6 +28,11 @@
 -(void) testCreationOfLivingCell
 {
     assertThatBool([livingCell isAlive], is(equalToBool(YES)));
+}
+
+- (void)testLivingCellEquality
+{
+    assertThat([LivingCell new], is([LivingCell new]));
 }
 
 -(void) testLivingCellWithLessThenTwoNeighboursDies

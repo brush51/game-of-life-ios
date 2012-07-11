@@ -22,7 +22,7 @@
     return YES;
 }
 
-- (NSObject <Cell> *)cellForNextTickIfNumberOfNeighbours:(int)numberOfLivingNeighbours {
+- (Cell *)cellForNextTickIfNumberOfNeighbours:(int)numberOfLivingNeighbours {
     if (numberOfLivingNeighbours == 2 ||numberOfLivingNeighbours == 3){
         return self;
     } else {

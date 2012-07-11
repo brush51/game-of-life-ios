@@ -15,6 +15,6 @@
 
 #import "Cell.h"
 
-@interface LivingCell : NSObject <Cell>
+@interface LivingCell : Cell
 
 @end

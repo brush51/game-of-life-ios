@@ -19,17 +19,17 @@
 
 @implementation DomainAssertions
 
-+ (BOOL)willCell:(NSObject <Cell> *)aCell withNumberOfNeighboursLive:(int)numberOfNeighbours {
-    NSObject<Cell>* cellForNextTick = [aCell cellForNextTickIfNumberOfNeighbours:numberOfNeighbours];
++ (BOOL)willCell:(Cell *)aCell withNumberOfNeighboursLive:(int)numberOfNeighbours {
+    Cell* cellForNextTick = [aCell cellForNextTickIfNumberOfNeighbours:numberOfNeighbours];
     assertThat(cellForNextTick, is(notNilValue()));
     return [cellForNextTick isAlive];
 }
 
-+ (void)assertThatCellWillLive:(NSObject <Cell> *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
++ (void)assertThatCellWillLive:(Cell *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
     assertThatBool([self willCell:aCell withNumberOfNeighboursLive:numberOfNeighbours], is(equalToBool(YES)));
 }
 
-+ (void)assertThatCellWillBeDead:(NSObject <Cell> *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
++ (void)assertThatCellWillBeDead:(Cell *)aCell withNumberOfNeighbours:(int)numberOfNeighbours {
     assertThatBool([self willCell:aCell withNumberOfNeighboursLive:numberOfNeighbours], is(equalToBool(NO)));
 }
 

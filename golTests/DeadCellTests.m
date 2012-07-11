@@ -18,7 +18,7 @@
 #import "DeadCell.h"
 
 @implementation DeadCellTests {
-    NSObject<Cell>* deadCell;
+    Cell* deadCell;
 }
 
 - (void)setUp
@@ -29,6 +29,11 @@
 - (void)testCreationOfDeadCell
 {
     assertThatBool([deadCell isAlive], is(equalToBool(NO)));
+}
+
+- (void)testDeadCellEquality
+{
+    assertThat([DeadCell new], is([DeadCell new]));
 }
 
 - (void)testDeadCellWithExactlyThreeNeighboursWillLive

@@ -17,5 +17,5 @@
 #import "Cell.h"
 
 
-@interface DeadCell : NSObject <Cell>
+@interface DeadCell : Cell
 @end
